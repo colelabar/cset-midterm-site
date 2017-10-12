@@ -49,4 +49,94 @@ table {
 
 /* End CSS Reset */
 
+/* Begin Variables */
+$header-color: #ffab00;
+$background-color: #ffc400;
+$text-orange: #eb503c;
+$text-red: #4e1c07;
+$text-blue: #064159;
+$text-dark: #021d2c;
+$text-gray: #6f8998;
+$lato: 'Lato', Arial, sans-serif;
+$droid: 'Droid Serif', Arial, sans-serif;
+
 /* Begin Styles */
+.header {
+	height: 60px;
+	width: 95%;
+	padding: 40px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	background-color: $header-color;
+
+	.header_logo {
+		height: auto;
+		width: auto;
+	}
+
+	.header_head {
+		font-size: 21px;
+		font-family: $lato;
+		font-weight: 400;
+		color: $text-blue;
+		display: inline;
+		margin-right: 0;
+		text-decoration: none;
+	}
+	.header_head_2 {
+		font-size: 21px;
+		font-family: $lato;
+		font-weight: 900;
+		color: $text-blue;
+		display: inline;
+		margin-left: -2px;
+		text-decoration: none;
+	}
+}
+
+.main_nav {
+	height: auto;
+	width: auto;
+	border: 3px solid $text-blue;
+	margin-right: 30px;
+	position: relative;
+	display: inline-block;
+
+	.nav_button {
+		width: 35px;
+		height: 35px;
+		background-color: $header-color;
+		padding: 2px;
+		margin: auto;
+		cursor: pointer;
+	}
+	.nav_comp {
+		width: 20px;
+		height: 3px;
+		background-color: $text-blue;
+		margin: 5px;
+	}
+	.drop_cont {
+		display: none;
+		position: absolute;
+		right: 0;
+		padding: 10px;
+		background-color: $background-color;
+		min-width: 200px;
+		z-index: 1;
+		text-align: center;
+		border: 1px solid $text-blue;
+	}
+	.nav_link {
+		font-size: 15px;
+		font-family: $lato;
+		color: $text-blue;
+		display: block;
+		text-decoration: none;
+		margin: 10px 0;
+	}
+}
+.main_nav:hover .drop_cont {
+	display: block;
+}
