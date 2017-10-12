@@ -46,6 +46,74 @@ table {
   border-spacing: 0; }
 
 /* End CSS Reset */
+/* Begin Variables */
 /* Begin Styles */
+.header {
+  height: 60px;
+  width: 95%;
+  padding: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #ffab00; }
+  .header .header_logo {
+    height: auto;
+    width: 200px; }
+  .header .header_head {
+    font-size: 21px;
+    font-family: "Lato", Arial, sans-serif;
+    font-weight: 400;
+    color: #064159;
+    display: inline;
+    margin-right: 0;
+    text-decoration: none; }
+  .header .header_head_2 {
+    font-size: 21px;
+    font-family: "Lato", Arial, sans-serif;
+    font-weight: 900;
+    color: #064159;
+    display: inline;
+    margin-left: -2px;
+    text-decoration: none; }
+
+.main_nav {
+  height: auto;
+  width: auto;
+  border: 3px solid #064159;
+  margin-right: 30px;
+  position: relative;
+  display: inline-block; }
+  .main_nav .nav_button {
+    width: 35px;
+    height: 35px;
+    background-color: #ffab00;
+    padding: 2px;
+    margin: auto;
+    cursor: pointer; }
+  .main_nav .nav_comp {
+    width: 20px;
+    height: 3px;
+    background-color: #064159;
+    margin: 5px; }
+  .main_nav .drop_cont {
+    display: none;
+    position: absolute;
+    right: 0;
+    padding: 10px;
+    background-color: #ffc400;
+    min-width: 200px;
+    z-index: 1;
+    text-align: center;
+    border: 1px solid #064159; }
+  .main_nav .nav_link {
+    font-size: 15px;
+    font-family: "Lato", Arial, sans-serif;
+    color: #064159;
+    display: block;
+    text-decoration: none;
+    margin: 10px 0; }
+
+.main_nav:hover .drop_cont {
+  display: block; }
 
 /*# sourceMappingURL=style.css.map */
