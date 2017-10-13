@@ -50,8 +50,8 @@ table {
 /* Begin Styles */
 .header {
   height: 60px;
-  width: 95%;
-  padding: 40px;
+  width: 94%;
+  padding: 3%;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -115,5 +115,26 @@ table {
 
 .main_nav:hover .drop_cont {
   display: block; }
+
+@media only screen and (min-width: 769px) {
+  .main_nav {
+    border: none;
+    display: inline;
+    height: auto;
+    width: auto; }
+    .main_nav .drop_cont {
+      display: inline;
+      position: relative;
+      right: 0;
+      height: auto;
+      width: auto;
+      background-color: #ffab00;
+      border: none; }
+
+  .nav_link {
+    display: inline; }
+
+  .nav_button {
+    display: none; } }
 
 /*# sourceMappingURL=style.css.map */
