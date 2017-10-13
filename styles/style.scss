@@ -62,7 +62,7 @@ $droid: 'Droid Serif', Arial, sans-serif;
 
 /* Begin Styles */
 .header {
-	height: 60px;
+	height: 30px;
 	width: 94%;
 	padding: 3%;
 	display: flex;
@@ -98,7 +98,7 @@ $droid: 'Droid Serif', Arial, sans-serif;
 .main_nav {
 	height: auto;
 	width: auto;
-	margin-right: 30px;
+	margin: 8px 30px 0 0;
 	position: relative;
 	display: inline-block;
 
@@ -144,24 +144,41 @@ $droid: 'Droid Serif', Arial, sans-serif;
 
 	.main_nav {
 		border: none;
-		display: inline;
+		display: flex;
 		height: auto;
-		width: auto;
+		width: 450px;
+
+		.cont_con {
+			width: 450px;
+		}
 
 		.drop_cont {
-			display: inline;
+			display: flex;
 			position: relative;
+			justify-content: space-between;
 			right: 0;
 			height: auto;
-			width: auto;
+			width: 450px;
 			background-color: $header-color;
 			border: none;
+			padding: 0;
+		}
+
+		.nav_link {
+			padding: 10px;
 		}
 	}
 
-	.nav_link {
-		display: inline;
+	.main_nav:hover .drop_cont {
+		display: flex;
+		justify-content: space-between;
 	}
+
+	.nav_link:hover {
+		background-color: $text-orange;
+		transition-duration: 1s;
+	}
+
 	.nav_button {
 		display: none;
 	}

@@ -49,7 +49,7 @@ table {
 /* Begin Variables */
 /* Begin Styles */
 .header {
-  height: 60px;
+  height: 30px;
   width: 94%;
   padding: 3%;
   display: flex;
@@ -79,7 +79,7 @@ table {
 .main_nav {
   height: auto;
   width: auto;
-  margin-right: 30px;
+  margin: 8px 30px 0 0;
   position: relative;
   display: inline-block; }
   .main_nav .nav_button {
@@ -118,20 +118,31 @@ table {
 @media only screen and (min-width: 769px) {
   .main_nav {
     border: none;
-    display: inline;
+    display: flex;
     height: auto;
-    width: auto; }
+    width: 450px; }
+    .main_nav .cont_con {
+      width: 450px; }
     .main_nav .drop_cont {
-      display: inline;
+      display: flex;
       position: relative;
+      justify-content: space-between;
       right: 0;
       height: auto;
-      width: auto;
+      width: 450px;
       background-color: #ffab00;
-      border: none; }
+      border: none;
+      padding: 0; }
+    .main_nav .nav_link {
+      padding: 10px; }
 
-  .nav_link {
-    display: inline; }
+  .main_nav:hover .drop_cont {
+    display: flex;
+    justify-content: space-between; }
+
+  .nav_link:hover {
+    background-color: #eb503c;
+    transition-duration: 1s; }
 
   .nav_button {
     display: none; } }
