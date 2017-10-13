@@ -49,9 +49,9 @@ table {
 /* Begin Variables */
 /* Begin Styles */
 .header {
-  height: 60px;
-  width: 95%;
-  padding: 40px;
+  height: 30px;
+  width: 94%;
+  padding: 3%;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -79,8 +79,7 @@ table {
 .main_nav {
   height: auto;
   width: auto;
-  border: 3px solid #064159;
-  margin-right: 30px;
+  margin: 8px 30px 0 0;
   position: relative;
   display: inline-block; }
   .main_nav .nav_button {
@@ -115,5 +114,37 @@ table {
 
 .main_nav:hover .drop_cont {
   display: block; }
+
+@media only screen and (min-width: 769px) {
+  .main_nav {
+    border: none;
+    display: flex;
+    height: auto;
+    width: 450px; }
+    .main_nav .cont_con {
+      width: 450px; }
+    .main_nav .drop_cont {
+      display: flex;
+      position: relative;
+      justify-content: space-between;
+      right: 0;
+      height: auto;
+      width: 450px;
+      background-color: #ffab00;
+      border: none;
+      padding: 0; }
+    .main_nav .nav_link {
+      padding: 10px; }
+
+  .main_nav:hover .drop_cont {
+    display: flex;
+    justify-content: space-between; }
+
+  .nav_link:hover {
+    background-color: #eb503c;
+    transition-duration: 1s; }
+
+  .nav_button {
+    display: none; } }
 
 /*# sourceMappingURL=style.css.map */
