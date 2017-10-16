@@ -1,0 +1,41 @@
+/* Begin Variables */
+$header-color: #ffab00;
+$background-color: #ffc400;
+$text-orange: #eb503c;
+$text-cream: #efe9d8;
+$text-red: #4e1c07;
+$text-blue: #064159;
+$text-dark: #021d2c;
+$text-gray: #6f8998;
+$lato: 'Lato', Arial, sans-serif;
+$droid: 'Droid Serif', Arial, sans-serif;
+
+/* Begin Styles */
+.hero {
+	background-image: url('../images/home.jpg');
+	width: 94%;
+	padding: 3%;
+	height: auto;
+	background-color: $background-color;
+	background-repeat: no-repeat;
+	background-size: 1600px;
+	display: flex;
+}
+.hero_con {
+	width: 240px;
+	padding: 30px;
+}
+.hero_head {
+	font-family:$lato;
+	color: $text-cream;
+	font-size: 36px;
+	font-weight: 900;
+	text-align: left;
+}
+
+/* Media Queries */
+@media only screen and (min-width: 769px) {
+	.hero_con {
+		width: 500px;
+	}
+}
