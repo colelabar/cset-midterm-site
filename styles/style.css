@@ -153,22 +153,28 @@ table {
   background-image: url("../images/home.jpg");
   width: 94%;
   padding: 3%;
-  height: auto;
+  height: 200px;
   background-color: #ffc400;
   background-repeat: no-repeat;
   background-size: 1600px;
   display: flex; }
 
 .hero_con {
-  width: 240px;
+  width: 245px;
   padding: 30px; }
 
 .hero_head {
   font-family: "Lato", Arial, sans-serif;
   color: #efe9d8;
+  letter-spacing: 2px;
   font-size: 36px;
-  font-weight: 900;
+  font-weight: 700;
   text-align: left; }
+
+.main_content {
+  background-color: #ffc400;
+  width: 96%;
+  padding: 2%; }
 
 /* Media Queries */
 @media only screen and (min-width: 769px) {
