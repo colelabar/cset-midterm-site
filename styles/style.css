@@ -1,3 +1,4 @@
+/* Imports */
 /* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
@@ -146,5 +147,32 @@ table {
 
   .nav_button {
     display: none; } }
+/* Begin Variables */
+/* Begin Styles */
+.hero {
+  background-image: url("../images/home.jpg");
+  width: 94%;
+  padding: 3%;
+  height: auto;
+  background-color: #ffc400;
+  background-repeat: no-repeat;
+  background-size: 1600px;
+  display: flex; }
+
+.hero_con {
+  width: 240px;
+  padding: 30px; }
+
+.hero_head {
+  font-family: "Lato", Arial, sans-serif;
+  color: #efe9d8;
+  font-size: 36px;
+  font-weight: 900;
+  text-align: left; }
+
+/* Media Queries */
+@media only screen and (min-width: 769px) {
+  .hero_con {
+    width: 500px; } }
 
 /*# sourceMappingURL=style.css.map */
