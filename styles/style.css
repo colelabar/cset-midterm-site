@@ -176,6 +176,73 @@ table {
   width: 96%;
   padding: 2%; }
 
+.over_content {
+  padding: 20px 20px 0px 20px; }
+
+.content_head {
+  color: #4e1c07;
+  font-size: 18px;
+  font-family: "Droid Serif", Arial, sans-serif;
+  font-weight: 700;
+  margin-bottom: 20px;
+  letter-spacing: .8px;
+  text-align: left;
+  line-height: 1.6; }
+
+.content_con {
+  font-family: "Droid Serif", Arial, sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  color: #021d2c;
+  margin-bottom: 20px;
+  letter-spacing: .9px;
+  text-align: left;
+  line-height: 1.56; }
+
+.division-line {
+  height: 1px;
+  width: 98%;
+  padding: 0 1% 0 1%;
+  background-color: #ee3e28; }
+
+.ach4 {
+  color: #eb503c;
+  font-size: 16px;
+  font-weight: bold;
+  font-family: "Lato", Arial, sans-serif;
+  text-align: left;
+  letter-spacing: .8px;
+  line-height: 1.5;
+  margin-bottom: 10px; }
+
+.ach2, .comm-list {
+  color: #4e1c07;
+  font-family: "Droid Serif", Arial, sans-serif;
+  font-weight: bold;
+  font-size: 21px;
+  text-align: left;
+  line-height: 1.5;
+  letter-spacing: 1px; }
+
+.ach3 {
+  color: #021d2c;
+  font-family: "Lato", Arial, sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 2.0;
+  letter-spacing: .8px; }
+
+.button_con {
+  margin-right: 50px; }
+
+.span-button {
+  color: #4e1c07;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+  font-family: "Lato", Arial, sans-serif;
+  letter-spacing: .8px; }
+
 /* Media Queries */
 @media only screen and (min-width: 769px) {
   .hero_con {
