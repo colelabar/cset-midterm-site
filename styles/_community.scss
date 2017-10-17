@@ -1,3 +1,68 @@
+.comm-button-con {
+  display: grid;
+  height: auto;
+  margin-bottom: 50px;
+  justify-content: center;
+}
+
+.comm-button {
+  color: $text-cream;
+  text-decoration: none;
+  background-color: $text-orange;
+  padding: 3px;
+  font-family: $droid;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 3.83;
+  letter-spacing: .9px;
+  text-align: center;
+  margin: 10px;
+  width: 250px;
+}
+
 .comm-list {
  @extend .ach2;
+ margin-bottom: 50px;
+}
+
+.white-bac {
+  background-color: white;
+  padding: 50px 20px;
+}
+
+.tan-bac {
+  @extend .white-bac;
+  background-color: $tan-color;
+}
+
+.ach2-1 {
+	color: $text-red;
+	font-family: $droid;
+	font-weight: bold;
+	font-size: 21px;
+	text-align: left;
+	line-height: 1.5;
+	letter-spacing: 1px;
+	margin-bottom: 20px;
+}
+
+.ach5 {
+  font-size: 18px;
+  font-family: $droid;
+  font-weight: 700;
+  font-style: italic;
+  color: $text-dark;
+  line-height: 1.33;
+  letter-spacing: .9px;
+}
+
+.coe-list {
+  @extend .content_con;
+  list-style: decimal;
+  list-style-position: inside;
+}
+
+.rights-res {
+  @extend .ach5;
+  font-size: 16px;
 }

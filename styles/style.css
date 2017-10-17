@@ -189,7 +189,7 @@ table {
   text-align: left;
   line-height: 1.6; }
 
-.content_con {
+.content_con, .coe-list {
   font-family: "Droid Serif", Arial, sans-serif;
   font-size: 15px;
   font-weight: 400;
@@ -247,5 +247,60 @@ table {
 @media only screen and (min-width: 769px) {
   .hero_con {
     width: 500px; } }
+.comm-button-con {
+  display: grid;
+  height: auto;
+  margin-bottom: 50px;
+  justify-content: center; }
+
+.comm-button {
+  color: #efe9d8;
+  text-decoration: none;
+  background-color: #eb503c;
+  padding: 3px;
+  font-family: "Droid Serif", Arial, sans-serif;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 3.83;
+  letter-spacing: .9px;
+  text-align: center;
+  margin: 10px;
+  width: 250px; }
+
+.comm-list {
+  margin-bottom: 50px; }
+
+.white-bac, .tan-bac {
+  background-color: white;
+  padding: 50px 20px; }
+
+.tan-bac {
+  background-color: #F0E9D9; }
+
+.ach2-1 {
+  color: #4e1c07;
+  font-family: "Droid Serif", Arial, sans-serif;
+  font-weight: bold;
+  font-size: 21px;
+  text-align: left;
+  line-height: 1.5;
+  letter-spacing: 1px;
+  margin-bottom: 20px; }
+
+.ach5, .rights-res {
+  font-size: 18px;
+  font-family: "Droid Serif", Arial, sans-serif;
+  font-weight: 700;
+  font-style: italic;
+  color: #021d2c;
+  line-height: 1.33;
+  letter-spacing: .9px; }
+
+.coe-list {
+  list-style: decimal;
+  list-style-position: inside; }
+
+.rights-res {
+  font-size: 16px; }
 
 /*# sourceMappingURL=style.css.map */
