@@ -232,6 +232,9 @@ table {
   line-height: 2.0;
   letter-spacing: .8px; }
 
+.buttons {
+  margin-bottom: 50px; }
+
 .button_con {
   margin-right: 50px; }
 
@@ -302,5 +305,20 @@ table {
 
 .rights-res {
   font-size: 16px; }
+
+.foot {
+  padding: 3%;
+  background-color: white;
+  display: block;
+  height: auto;
+  width: 94%;
+  text-align: center;
+  margin: 10px 0 10px 0; }
+  .foot .foot_con {
+    font-family: "Lato", Arial, sans-serif;
+    color: #6f8998;
+    font-size: 16px;
+    margin: 10px 0 10px 0;
+    letter-spacing: .8px; }
 
 /*# sourceMappingURL=style.css.map */
