@@ -1,0 +1,36 @@
+.cal_con {
+  background-color: $text-orange;
+  padding: 50px 50px 30px 30px;
+}
+
+.cal_con_dark {
+  @extend .cal_con;
+  background-color: $background-red;
+}
+
+.over_content_cal {
+  @extend .over_content;
+  display: inline-block;
+}
+
+.cal_con_head {
+  font-family: $droid;
+  font-weight: bold;
+  color: $text-cream;
+  font-size: 21px;
+  padding: 0;
+  text-align: left;
+  letter-spacing: 1px;
+  background-color: inherit;
+  margin-bottom: 10px;
+}
+
+.content_con_cal {
+  @extend .content_con;
+  color: $text-cream;
+}
+
+.content_cal_but {
+  @extend .content_con_cal;
+  font-size: 16;
+}
