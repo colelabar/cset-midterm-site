@@ -176,7 +176,7 @@ table {
   width: 96%;
   padding: 2%; }
 
-.over_content {
+.over_content, .over_content_cal {
   padding: 20px 20px 0px 20px; }
 
 .content_head {
@@ -189,7 +189,7 @@ table {
   text-align: left;
   line-height: 1.6; }
 
-.content_con, .coe-list {
+.content_con, .coe-list, .content_con_cal, .content_cal_but {
   font-family: "Droid Serif", Arial, sans-serif;
   font-size: 15px;
   font-weight: 400;
@@ -320,5 +320,32 @@ table {
     font-size: 16px;
     margin: 10px 0 10px 0;
     letter-spacing: .8px; }
+
+.cal_con, .cal_con_dark {
+  background-color: #eb503c;
+  padding: 50px 50px 30px 30px; }
+
+.cal_con_dark {
+  background-color: #a13729; }
+
+.over_content_cal {
+  display: inline-block; }
+
+.cal_con_head {
+  font-family: "Droid Serif", Arial, sans-serif;
+  font-weight: bold;
+  color: #efe9d8;
+  font-size: 21px;
+  padding: 0;
+  text-align: left;
+  letter-spacing: 1px;
+  background-color: inherit;
+  margin-bottom: 10px; }
+
+.content_con_cal, .content_cal_but {
+  color: #efe9d8; }
+
+.content_cal_but {
+  font-size: 16; }
 
 /*# sourceMappingURL=style.css.map */
