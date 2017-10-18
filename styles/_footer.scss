@@ -1,0 +1,17 @@
+.foot {
+  padding: 3%;
+  background-color: white;
+  display: block;
+  height: auto;
+  width: 94%;
+  text-align: center;
+  margin: 10px 0 10px 0;
+
+  .foot_con {
+    font-family: $lato;
+    color: $text-gray;
+    font-size: 16px;
+    margin: 10px 0 10px 0;
+    letter-spacing: .8px;
+  }
+}
