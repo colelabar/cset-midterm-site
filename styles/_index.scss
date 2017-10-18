@@ -125,4 +125,10 @@ $droid: 'Droid Serif', Arial, sans-serif;
 	.hero_con {
 		width: 500px;
 	}
+	.main_content {
+		z-index: 1;
+		position: absolute;
+		width: 90%;
+		margin: 0 auto;
+	}
 }
