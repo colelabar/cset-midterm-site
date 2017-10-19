@@ -18,6 +18,7 @@
   text-align: center;
   margin: 10px;
   width: 250px;
+  height: auto;
 }
 
 .comm-list {
@@ -65,4 +66,14 @@
 .rights-res {
   @extend .ach5;
   font-size: 16px;
+}
+
+@media only screen and (min-width: 769px) {
+
+.comm-button-con {
+  display: inline;
+  .comm-button {
+    padding: 15px;
+  }
+}
 }

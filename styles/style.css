@@ -236,7 +236,7 @@ table {
   margin-bottom: 50px; }
 
 .button_con {
-  margin-right: 50px; }
+  margin-right: 30px; }
 
 .span-button {
   color: #4e1c07;
@@ -253,9 +253,26 @@ table {
 
   .main_content {
     z-index: 1;
-    position: absolute;
-    width: 90%;
-    margin: 0 auto; } }
+    margin: 0 8%;
+    width: 80%;
+    position: relative;
+    height: auto;
+    display: inline-flex;
+    top: -50px; }
+
+  .over_content, .over_content_cal {
+    width: 69.95%;
+    padding-right: 50px; }
+
+  .division-line {
+    height: auto;
+    width: .05%;
+    padding: 5% 0 5% 0;
+    border: #eb503c solid 1px; }
+
+  .over_content_main {
+    padding-right: 20px;
+    width: 30%; } }
 .comm-button-con {
   display: grid;
   height: auto;
@@ -274,7 +291,8 @@ table {
   letter-spacing: .9px;
   text-align: center;
   margin: 10px;
-  width: 250px; }
+  width: 250px;
+  height: auto; }
 
 .comm-list {
   margin-bottom: 50px; }
@@ -312,6 +330,11 @@ table {
 .rights-res {
   font-size: 16px; }
 
+@media only screen and (min-width: 769px) {
+  .comm-button-con {
+    display: inline; }
+    .comm-button-con .comm-button {
+      padding: 15px; } }
 .foot {
   padding: 3%;
   background-color: white;
@@ -327,6 +350,12 @@ table {
     margin: 10px 0 10px 0;
     letter-spacing: .8px; }
 
+@media only screen and (min-width: 769px) {
+  .foot {
+    display: inline-flex;
+    height: auto;
+    width: 92%;
+    justify-content: space-between; } }
 .cal_con, .cal_con_dark {
   background-color: #eb503c;
   padding: 50px 50px 30px 30px; }
