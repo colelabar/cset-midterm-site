@@ -176,7 +176,7 @@ table {
   width: 96%;
   padding: 2%; }
 
-.over_content, .over_content_cal {
+.over_content {
   padding: 20px 20px 0px 20px; }
 
 .content_head {
@@ -260,7 +260,7 @@ table {
     display: inline-flex;
     top: -50px; }
 
-  .over_content, .over_content_cal {
+  .over_content {
     width: 69.95%;
     padding-right: 50px; }
 
@@ -364,7 +364,8 @@ table {
   background-color: #a13729; }
 
 .over_content_cal {
-  display: inline-block; }
+  display: inline-block;
+  padding: 20px; }
 
 .cal_con_head {
   font-family: "Droid Serif", Arial, sans-serif;
@@ -381,6 +382,23 @@ table {
   color: #efe9d8; }
 
 .content_cal_but {
-  font-size: 16px; }
+  font-size: 16px;
+  text-decoration: none; }
+
+@media only screen and (min-width: 769px) {
+  .meet_cont {
+    display: inline-block; }
+
+  .over_content_cal {
+    padding: 10px;
+    width: 30%; }
+
+  .cal_main {
+    display: flex; }
+    .cal_main .cal_con, .cal_main .cal_con_dark {
+      width: 40%; }
+    .cal_main .cal_con_dark {
+      width: 59%;
+      margin-left: 1%; } }
 
 /*# sourceMappingURL=style.css.map */

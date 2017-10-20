@@ -9,8 +9,8 @@
 }
 
 .over_content_cal {
-  @extend .over_content;
   display: inline-block;
+  padding: 20px;
 }
 
 .cal_con_head {
@@ -33,4 +33,27 @@
 .content_cal_but {
   @extend .content_con_cal;
   font-size: 16px;
+  text-decoration: none;
+}
+
+@media only screen and (min-width: 769px) {
+  .meet_cont {
+    display: inline-block;
+  }
+
+  .over_content_cal {
+    padding: 10px;
+    width: 30%;
+  }
+  .cal_main {
+    display: flex;
+
+    .cal_con {
+      width: 40%;
+    }
+    .cal_con_dark {
+      width: 59%;
+      margin-left: 1%;
+    }
+  }
 }
