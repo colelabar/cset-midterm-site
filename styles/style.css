@@ -116,7 +116,7 @@ table {
 .main_nav:hover .drop_cont {
   display: block; }
 
-@media only screen and (min-width: 769px) {
+@media only screen and (min-width: 768px) {
   .main_nav {
     border: none;
     display: flex;
@@ -247,7 +247,7 @@ table {
   letter-spacing: .8px; }
 
 /* Media Queries */
-@media only screen and (min-width: 769px) {
+@media only screen and (min-width: 768px) {
   .hero_con {
     width: 500px; }
 
@@ -330,7 +330,7 @@ table {
 .rights-res {
   font-size: 16px; }
 
-@media only screen and (min-width: 769px) {
+@media only screen and (min-width: 768px) {
   .comm-button-con {
     display: inline; }
     .comm-button-con .comm-button {
@@ -385,7 +385,7 @@ table {
   font-size: 16px;
   text-decoration: none; }
 
-@media only screen and (min-width: 769px) {
+@media only screen and (min-width: 768px) {
   .meet_cont {
     display: inline-block; }
 
